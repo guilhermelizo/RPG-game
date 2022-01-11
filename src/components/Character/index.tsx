@@ -5,9 +5,10 @@ type Props ={
     x: number;
     y: number;
     side: CharacterSides;
+    name: string;
 }
 
-export const Character = ({x, y, side}: Props) =>{
+export const Character = ({x, y, side, name}: Props) =>{
     // 30 é o tamanho ocupado pelo character *
     const size= 30;
     const sides ={
